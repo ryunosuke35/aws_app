@@ -5,15 +5,6 @@ ruby '2.6.5'
 gem 'dotenv-rails'
 gem 'unicorn'
 gem 'mini_racer', platforms: :ruby
-
-
-
-gem 'bcrypt_pbkdf'
-gem 'ed25519'
-
-
-
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.5'
 # Use postgresql as the database for Active Record
@@ -55,6 +46,8 @@ group :development, :test do
   gem 'capistrano-rails'
   gem 'capistrano-rbenv'
   gem 'capistrano3-unicorn'
+  gem 'bcrypt_pbkdf'
+  gem 'ed25519'
 end
 
 group :development do
