@@ -9,7 +9,7 @@ gem 'mini_racer', platforms: :ruby
 
 
 # gem 'bcrypt_pbkdf'
-# gem 'ed25519'
+gem 'ed25519'
 
 
 
