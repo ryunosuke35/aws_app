@@ -8,8 +8,8 @@ gem 'mini_racer', platforms: :ruby
 
 
 
-gem 'bcrypt_pbkdf'
-gem 'ed25519'
+# gem 'bcrypt_pbkdf'
+# gem 'ed25519'
 
 
 
